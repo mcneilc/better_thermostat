@@ -8,15 +8,15 @@ device:
   temperature_correction_mode: local_setpoint_delta
   device_features:
     local_setpoint_delta:
-      supported: unknown
-      temperature_step: unknown
-    system_modes: unknown
+      supported: true
+      temperature_step: full_degree
+    system_modes: true
     presets:
-      supported: unknown
-      boost_mode: unknown
-      setpoint_mode: unknown
-    boost_mode: unknown
-    temperature_step: unknown
+      supported: true
+      boost_mode: false
+      setpoint_mode: "none"
+    boost_mode: false
+    temperature_step: full_degree
     temperature_unit: celsius
   quirks:
     calibration_round: true
